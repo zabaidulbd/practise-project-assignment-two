@@ -58,25 +58,41 @@ nav {
     border-radius: 41px;
     border: 0;
 }
-.header-media-text button span{
+
+.header-media-text button span {
     color: white;
 }
 
 /* main section styles */
-main{
+main {
     width: 1150px;
     margin: 0 auto;
 }
-.online-shopping{
+
+.online-shopping {
     width: 1100px;
     padding: 10px 0px;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.shopping-title{
+
+.shopping-title {
     color: #3A3A3A;
     font-size: 28px;
     display: flex;
     justify-content: center;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.gallery {
+    width: 329px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 }
