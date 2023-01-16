@@ -1,6 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.btn-primary{
+    width: 136px;
+    height: 48px;
+    background: #ff4f00;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
 
 /* header section styles */
 header {
@@ -95,4 +103,29 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+
+/* feature section style */
+
+.feature{
+    display: flex;
+    gap:190px;
+    margin-top: 75px;
+}
+.feature-img{
+    width: 448px;
+    height: 212px;
+}
+.feature-img img{
+    width: 396px;
+    height: 218px;
+}
+
+/* footer style */
+.footer{
+        border-radius: 6px;
+        background: #3a3a3a;
+        text-align: center;
+        color: white;
+        margin-top: 106px;
 }
